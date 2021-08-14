@@ -1,0 +1,490 @@
+body {background-color:#F7F4EC }
+
+h1, h2, h3 , h4, h5, h6, p { font-family: 'Gothic A1', sans-serif;
+
+}
+
+/* NAVIGATION */
+.customNav {
+  position: sticky;
+  width: 100%;
+  
+  
+  background-size: cover;
+  z-index: 10;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    
+    
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown-menu {
+    
+    
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: rgb(97, 97, 97) !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+
+   
+
+
+
+/* INTRO / HERO SECTION */
+
+.titleMesa1{
+  margin-top: 20px;
+
+display:flex;
+justify-content: flex-start !important;
+/*margin-left: -300px;
+margin-top: 300px; */
+font-size: 2.5rem;
+font-weight: 400 !important; 
+
+
+}
+
+.titleMesa2{
+
+  display:flex;
+  justify-content: flex-start ;
+  /*margin-left: -300px; */
+  font-size: 2rem;
+  font-weight: 200 !important;
+  margin-top: -1%;
+  }
+
+.rockBackground {
+  background-image: url("../images/_MesaCountyCover2.png");
+  background-size:cover;
+  background-repeat: no-repeat ;
+  height: 80vh;
+  /*max-width:100%;
+  z-index: -20 ;*/
+}
+
+.mesaLogo {
+        width:75%;
+        display:flex;
+  justify-content: flex-start ;
+
+
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* PROB STATEMENT / SOLUTION */
+
+
+
+
+
+/* NAV CONTENTS / PROCESS  */
+/*.cardProbMain{
+  /* display:flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  height: 500px; 
+}
+*/
+
+ 
+.cardProbHeading1, .cardProbHeading2{
+  
+font-weight: 900 !important;
+color: #607c49;
+
+
+}
+
+.cardProb1 {
+  
+  /*display:flex;
+  width:300px !important;*/
+  color: #607c49;
+  border: none;
+  
+  line-height: 1.5rem;
+}
+
+.cardProb2 .img-fluid {
+  
+  /*display:flex;
+  width:300px !important;*/
+  color: #607c49;
+  border: none;
+  max-width:100%;
+  height: auto;}
+
+.text-success{
+  color: #607c49 !important;
+  
+}
+
+a.card-link.text-success:hover{
+  background-color: #6ec02c !important;
+  
+}
+
+
+  .cardProb4 {
+    
+    
+  
+    
+    color: #607c49;
+    border: none;
+    
+    line-height: 2.5rem !important;
+    
+  }
+
+  .cardProb4Line{
+  
+    line-height: 6rem;
+    font-size:x-large;
+  }
+  
+  .cardProb3.img-fluid2 {
+    
+    /*display:flex;
+    width:300px !important;*/
+    color: #607c49;
+    border: none;
+    max-width:100%;
+    height:25vh;}
+  
+
+
+
+
+.caseStudyNav{
+ margin-top: 200px !important;
+}
+
+.caseStudyNav2{
+  margin-top: 100px !important;
+ }
+
+
+
+
+/* PART 1 / RESEARCH  */
+.researchIntro {
+  background-image: url(../images/ResearchIntro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.card-title{
+  color: #607c49;
+  }
+
+  .card-text{
+    color: #607c49;
+    }
+  
+
+.cardBodyTransparent{
+  background-color:#F7F4EC;
+  border: none;
+}
+
+.oldMesa {
+
+
+  
+  
+  /*display:flex;
+  width:300px !important;*/
+  color: #607c49;
+  border: none;
+  margin-top: 7%;
+  line-height: 4rem;
+}
+
+.genTitle {
+  color: #607c49;
+}
+
+.genParagraph {
+  color: #607c49;
+  margin-top: 25px;
+}
+
+.topMarg{
+  color: #607c49;
+  margin-top: 25px;
+}
+
+.insight1 {
+
+
+  
+  
+  /*display:flex;
+  width:300px !important;*/
+  color: white;
+  border: none;
+  margin-top: 7%;
+  line-height: 2.5rem;
+  background-color: #607c49;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.survey1 {
+
+
+  
+  
+  /*display:flex;
+  width:300px !important;*/
+  color: #607c49;
+  border: none;
+  margin-top: 10%;
+  line-height: 2.5rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.survey2 {
+
+
+  
+  
+  /*display:flex;
+  width:300px !important;*/
+  color: #607c49;
+  border: none;
+  margin-top: 10%;
+  
+  
+  
+}
+
+.pers1 {
+  margin-top: 8% !important;
+}
+
+.pers2 {
+  margin-top: 8% !important;
+  
+  
+
+}
+
+
+
+/* PART 2 / DEFINE IDEATION  */
+.ideationIntro {
+  background-image: url(../images/IdeationIntro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+
+
+/* PART 3 / PROTOTYPING  */
+.protoIntro {
+  background-image: url(../images/PrototypingIntro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.slideAll{
+  color: #607c49;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #607c49;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #607c49;
+}
+
+
+
+
+/* FINAL / PROTOTYPE  */
+.finalIntro {
+  background-image: url(../images/FInalPrototypeIntro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.fnlProto1 { color:#607c49;
+  justify-content: center !important;
+
+}
+
+
+
+.finalProtoTypes {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.caseStudyNav3{
+  margin-top: 50px !important;
+}
+
+.btn-info.custom-btn {
+	background-color: #607c49;
+	border-color: #607c49;
+}
+
+
+/* CONCLUSIONS  */
+.conIntro {
+  background-image: url(../images/FinaThoughtsIntro.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.conclude{
+  color: #607c49;
+  border: none;
+  
+  
+
+
+
+
+}
+
+.lineheight{
+line-height: 1.75rem !important;
+
+
+}
+
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .Media1 {
+    margin: 0;
+    
+
+  }
+
+  .titleMesa1, .titleMesa2 {
+    font-size:x-large;
+    
+ 
+
+
+
+  }
+
+  .mesalogo {
+          width: 50%;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
