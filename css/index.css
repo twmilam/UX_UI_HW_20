@@ -78,14 +78,7 @@ font-weight: 400 !important;
   margin-top: -1%;
   }
 
-.rockBackground {
 
-  background-size:cover;
-  background-repeat: no-repeat ;
-  height: 80vh;
-  /*max-width:100%;
-  z-index: -20 ;*/
-}
 
 .mesaBackdrop{
   position:relative !important;
