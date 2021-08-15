@@ -80,10 +80,7 @@ font-weight: 400 !important;
 
 
 
-.mesaBackdrop{
-  position:relative !important;
-  z-index: -50 !important;
-}
+
 .MesaTitleBeginning1{
   z-index: 999;
 }
