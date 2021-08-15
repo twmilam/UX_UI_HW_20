@@ -79,7 +79,7 @@ font-weight: 400 !important;
   }
 
 .rockBackground {
-  background-image: url("../images/_MesaCountyCover2.png");
+
   background-size:cover;
   background-repeat: no-repeat ;
   height: 80vh;
@@ -87,8 +87,17 @@ font-weight: 400 !important;
   z-index: -20 ;*/
 }
 
+.mesaBackdrop{
+  position:relative !important;
+  z-index: -50 !important;
+}
+.MesaTitleBeginning1{
+  z-index: 999;
+}
+
+
 .mesaLogo {
-        width:75%;
+        width:2000px;
         display:flex;
   justify-content: flex-start ;
 
