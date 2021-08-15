@@ -155,7 +155,7 @@ color: #607c49;
 }
 
 a.card-link.text-success:hover{
-  background-color: #6ec02c !important;
+  color: #6ec02c !important;
   
 }
 
@@ -168,7 +168,7 @@ a.card-link.text-success:hover{
     color: #607c49;
     border: none;
     
-    line-height: 2.5rem !important;
+    line-height: 3rem !important;
     
   }
 
@@ -244,6 +244,8 @@ a.card-link.text-success:hover{
 .genTitle {
   color: #607c49;
 }
+
+
 
 .genParagraph {
   color: #607c49;
@@ -421,7 +423,7 @@ a.card-link.text-success:hover{
 }
 
 .caseStudyNav3{
-  margin-top: 50px !important;
+  margin-top: 100px !important;
 }
 
 .btn-info.custom-btn {
@@ -454,7 +456,7 @@ a.card-link.text-success:hover{
 }
 
 .lineheight{
-line-height: 1.75rem !important;
+line-height: 2.5rem !important;
 
 
 }
